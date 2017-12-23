@@ -1,1 +1,5 @@
-chmod +x myip.py && chmod +x myip && mv myip.py /usr/local/src/ && mv myip /bin && rm install.sh
+#!/usr/bin/env bash
+chmod +x myip.py
+mkdir ~/.myip
+mv myip.py ~/.myip
+ln -s ~/.myip/myip.py /usr/sbin/myip
