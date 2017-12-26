@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from urllib import urlopen
 from socket import socket, SOCK_DGRAM, AF_INET
 s = socket(AF_INET, SOCK_DGRAM)
